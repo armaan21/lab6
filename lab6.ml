@@ -163,7 +163,7 @@ In defining the sieve function, the following functon may be useful.
 let not_div_by (n : int) (m : int) : bool =
     not (m mod n = 0) ;;
 
-let rec sieve s = 
+let sieve s = 
   failwith "sieve not implemented" ;;
 (* fun () -> Cons(head s, sieve (sfilter (fun x -> x not_div_by (head s)) (tail s))) ;; *)
 
